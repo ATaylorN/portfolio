@@ -8,7 +8,7 @@
         <a class="nav-link" href="/about">About Me</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Coding</a>
+        <a class="nav-link" href="/coding">Coding</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Marketing</a>

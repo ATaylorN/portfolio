@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutMe from '../views/AboutMeView.vue'
+import Coding from '../views/CodingProjectsView.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/about',
     name: 'about-me',
     component: AboutMe
+  },
+  {
+    path: '/coding',
+    name: 'coding-projects',
+    component: Coding
   }
 ]
 

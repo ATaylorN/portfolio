@@ -1,11 +1,12 @@
 <template>
+<div class="background">
   <div class="about">
     <img class="me" src="../assets/Images/Headshot.jpg" alt="Amanda Taylor">
     
     <div class="about-me">
     <h1 class="title">Amanda Taylor</h1>
     <p class="details">I'm a software developer, veteran, and artist with over 11 years of customer service and sales experience. 
-        As far back as I can remember, I’ve always been the creative type. I was the kid that spent all my time drawing crayon pictures to be hung on the refrigerator. 
+        As far back as I can remember, I’ve always been the creative type. I was the kid that spent all of my time drawing crayon pictures to be hung up on the refrigerator. 
         As I got a little older, I participated in and won numerous art competitions and I was always the kid in class with all the sketches in the margins of their notes. 
         Whether it’s drawing or building an app, if I’m creating something, I’m happy. I find the process of figuring out how to bring an idea to reality to be incredibly 
         rewarding and I have a passion for learning.</p>
@@ -21,7 +22,7 @@
 
     <container class="behindimg"/>
   </div>
-  
+  </div>
 </template>
 
 <script>
@@ -31,6 +32,11 @@ export default {
 </script>
 
 <style>
+/* body{
+    background-image: url("../assets/Images/background/fog2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 .me{
     grid-area: photo;
     max-width: 400px;
@@ -56,7 +62,6 @@ export default {
     margin-left: -40px;
     margin-right: 40px;
     z-index: -1;
-    
 }
 .about-me{
     grid-area: me;
@@ -76,6 +81,7 @@ export default {
 .about-me p{
     font-size: 28px;
     font-family: 'Oswald', Courier, monospace;
+    font-weight:300;
 }
 .contact{
     grid-area: contact;
