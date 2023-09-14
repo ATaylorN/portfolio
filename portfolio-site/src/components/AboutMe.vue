@@ -32,11 +32,6 @@ export default {
 </script>
 
 <style>
-/* body{
-    background-image: url("../assets/Images/background/fog2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
 .me{
     grid-area: photo;
     max-width: 400px;

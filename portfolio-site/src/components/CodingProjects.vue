@@ -51,10 +51,10 @@
       <p>Insert what I learned here</p>
       </div>
       <div class="fcphotos">
-      <img src="../assets/Images/coding/landing-page.png" alt="Flash Cards landing page" />
-      <img src="../assets/Images/coding/questions.png" alt="Flash Card questions" />
-      <img src="../assets/Images/coding/quiz-view.png" alt="Flash Card quiz" />
-      <img src="../assets/Images/coding/further-study.png" alt="Flash Card further study" />
+      <img class="one" src="../assets/Images/coding/landing-page.png" alt="Flash Cards landing page" />
+      <img class="two" src="../assets/Images/coding/questions.png" alt="Flash Card questions" />
+      <img class="three" src="../assets/Images/coding/quiz-view.png" alt="Flash Card quiz" />
+      <img class="four" src="../assets/Images/coding/further-study.png" alt="Flash Card further study" />
       </div>
     </div>
 
@@ -72,13 +72,13 @@ export default {};
 
 <style>
 .icons{
-  border: 5px solid red;
-   margin-bottom: 4rem;
+   margin-bottom: 6rem;
    margin-left: auto;
    margin-right: auto;
 }
 .icons h1{
   text-align: center;
+  color:#002130;
 }
 .coding{
   display: flex;
@@ -87,43 +87,57 @@ export default {};
 }
 .coding h1{
   font-family: 'Quantico', Courier, monospace;
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 .coding h2{
   font-family: 'Oswald', Courier, monospace;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 500;
 }
 .coding p{
   font-family: 'Oswald', Courier, monospace;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 .flashcards{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "text photo";
-  border: 5px solid red;
+  background-color: #002130;
+  border-radius: 10px;
+  color: white;
   margin-bottom: 2rem;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 0px 5px 20px 0px black;
+  padding: 2rem 0rem;
 }
 .fctext{
   grid-area: text;
-  padding: 2rem;
+  padding: 4rem;
 }
 .fcphotos{
   grid-area: photo;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 70%; 
-  justify-content:flex-end;
+  width: 90%; 
   gap: 6px;
+  padding: 1rem;
 }
+
 .mealplan{
   display: grid;
   grid-template-columns: 0.5fr 2fr;
   grid-template-areas: "photo text";
-  border: 5px solid black;
+  background-color: #B95952;
+  border-radius: 10px;
+  color: white;
   margin-bottom: 2rem;
+  align-items: center;
+  box-shadow: 0px 5px 20px 0px black;
+  padding: 2rem 0rem;
 }
 .photos{
   grid-area: photo;
@@ -134,7 +148,7 @@ export default {};
 }
 .details{
   grid-area: text;
-  padding: 2rem;
+  padding: 2rem 4rem 2rem 2rem;
 }
 .icons img{
   max-width: 50px;
@@ -143,10 +157,11 @@ export default {};
   max-width: 600px;
   margin: 10px;
   border-radius: 10px;
+  padding-left: 2rem;
 }
 .flashcards img{
   max-width: 100%;
-  height: 310px;
+  height: 400px;
   border-radius: 10px;
 }
 .flashcards img:hover{
