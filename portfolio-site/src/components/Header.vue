@@ -11,7 +11,7 @@
         <a class="nav-link" href="/coding">Coding</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Marketing</a>
+        <a class="nav-link" href="/marketing">Marketing</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Portraits</a>
