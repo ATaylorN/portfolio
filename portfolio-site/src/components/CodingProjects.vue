@@ -58,9 +58,23 @@
       </div>
     </div>
 
-    <div class="Coming Soon">
+    <div class="comingsoon">
+      <div classs="libphoto">
+        <img src="../assets/Images/coding/library.png" alt="Library App - Under Construction">
+      </div>
+      <div class="libdetails">
       <h1>Library App</h1>
-      <p>Insert Description Here</p>
+      <p>Status: In Progress</p>
+
+      <h2>Goal:</h2>
+      <p>I have currently built out the database that I will be using for this project. I at one point had the SQL queries and what not started in IntelliJ,
+        but it somehow managed to get deleted. I'm a little disappointed, but I've learned a lot since I started this project so maybe it's ultimately for the best.
+        The end goal for this project is to have an application where I, as a user, 
+        can have a library catalog of all of the books that I own. I want to have the ability to view them based on whether or not they've been read yet and 
+        I want to be able to browse them based on things like genre and series. I'd also like to add a wishlist component to it so that 
+        I can keep track of books that I'm interested in purchasing and have it keep a running total of how much these books cost. Honestly, I'm tired of going to a bookstore,
+        picking up a book and wondering if it looks familiar because I've considered purchasing it before or because I've already purchased it and it's at home waiting to be read.</p>
+    </div>
     </div>
 
   </div>
@@ -126,7 +140,25 @@ export default {};
   gap: 6px;
   padding: 1rem;
 }
-
+.comingsoon{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  grid-template-areas: "libphoto libtext";
+  background-color: #B95952;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 2rem;
+  align-items: center;
+  box-shadow: 0px 5px 20px 0px black;
+  padding: 2rem 0rem;
+}
+.libphotos{
+  grid-area: libphoto;
+}
+.libdetails{
+  grid-area: libtext;
+  padding: 2rem 4rem 2rem 2rem;
+}
 .mealplan{
   display: grid;
   grid-template-columns: 0.5fr 2fr;
@@ -154,6 +186,12 @@ export default {};
   max-width: 50px;
 }
 .mealplan img{
+  max-width: 600px;
+  margin: 10px;
+  border-radius: 10px;
+  padding-left: 2rem;
+}
+.comingsoon img{
   max-width: 600px;
   margin: 10px;
   border-radius: 10px;

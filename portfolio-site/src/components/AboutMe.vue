@@ -50,10 +50,12 @@ export default {
 }             
 .behindimg{
     grid-area: behind;
-    border: 5px solid #B95952;
+    /* border: 5px solid #B95952; */
     height: 710px;
-    background-color: #B95952;
-    margin-top: -750px;
+    /* background-color: #B95952; */
+    background-image: url('../assets/Images/background/fogtexture.jpg');
+    background-repeat:round;
+    margin-top: -740px;
     margin-left: -40px;
     margin-right: 40px;
     z-index: -1;
