@@ -74,6 +74,7 @@ export default {
     font-size: 64px;
     font-family: 'Quantico', Courier, monospace;
     text-decoration: underline;
+    color: black;
 }
 .about-me p{
     font-size: 28px;

@@ -51,32 +51,6 @@
     </div>
 </div>
 
-    <div class="hopshomes">
-      <div class="hhtext">
-      <h1>Hops and Homes Event</h1>
-      <p>Details</p>
-      <h2>Social Media, FB event, physical signs, email</h2>
-      </div>
-      <div class="hhphotos">
-      <img class="one" src="../assets/Images/coding/landing-page.png" alt="Flash Cards landing page" />
-      <img class="two" src="../assets/Images/coding/questions.png" alt="Flash Card questions" />
-      <img class="three" src="../assets/Images/coding/quiz-view.png" alt="Flash Card quiz" />
-      <img class="four" src="../assets/Images/coding/further-study.png" alt="Flash Card further study" />
-      </div>
-    </div>
-
-    <div class="general">
-      <div class="gphotos">
-        <img src="../assets/Images/coding/LandingPage.png" alt="Meal Plan landing page" />
-        <img src="../assets/Images/coding/Calendar.png" alt="Meal Plan calendar" />
-      </div>
-      <div class="gdetails">
-      <h1>General Real Estate</h1>
-       <p>Details</p>
-        <h2>Social media, email, email newsletter, flyers, open house/just listed/closed</h2>
-      </div>
-    </div>
-
   </div>
 </template>
 
@@ -87,9 +61,9 @@ export default {
 </script>
 
 <style scoped>
-/* .fallfest {
+.fallfest {
   border-radius: 10px;
-  padding: 4rem 4rem 1rem 4rem;
+  padding: 2rem 4rem 1rem 4rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -169,7 +143,7 @@ export default {
 .fbevent img{
   max-width: 600px;
   border-radius: 10px;
-} */
+}
 .icons{
    margin-bottom: 4rem;
    margin-left: auto;
@@ -182,7 +156,7 @@ export default {
 .marketing{
   display: flex;
   flex-direction: column;
-  padding: 2rem 0rem;
+  padding: 4rem 0rem;
 }
 .marketing h1{
   font-family: 'Quantico', Courier, monospace;

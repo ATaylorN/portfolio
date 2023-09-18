@@ -112,8 +112,9 @@ export default {};
 }
 .coding p{
   font-family: 'Oswald', Courier, monospace;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
+  font-weight: 300;
 }
 .flashcards{
   display: grid;

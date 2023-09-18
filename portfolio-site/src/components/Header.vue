@@ -10,9 +10,14 @@
      <li class="nav-item">
         <a class="nav-link" href="/coding">Coding</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/marketing">Marketing</a>
-      </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Marketing</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/fall-fest">Fall Fest</a></li>
+            <li><a class="dropdown-item" href="#">Hops & Homes</a></li>
+            <li><a class="dropdown-item" href="#">Real Estate</a></li>
+          </ul>
+        </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Portraits</a>
       </li>
@@ -44,5 +49,8 @@ export default {
 }
 #header a:hover{
   color: goldenrod;
+}
+.dropdown-menu{
+  background-color:#002130;
 }
 </style>
