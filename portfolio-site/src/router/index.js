@@ -5,7 +5,8 @@ import AboutMe from '../views/AboutMeView.vue'
 import Coding from '../views/CodingProjectsView.vue'
 import Marketing from '../views/MarketingSectionView.vue'
 import FallFest from '../views/FallFestView.vue'
-import HopsHomes from '../views/HopsHomesView.vue'
+import BuySell from '../views/BuySellView.vue'
+import RealEstate from '../views/RealEstateView.vue'
 
 Vue.use(VueRouter)
 
@@ -36,9 +37,14 @@ const routes = [
     component: FallFest
   },
   {
-    path: '/hops-and-homes',
-    name: 'hops-and-homes',
-    component: HopsHomes
+    path: '/buy-and-sell',
+    name: 'buy-and-sell',
+    component: BuySell
+  },
+  {
+    path: '/real-estate',
+    name: 'real-estate',
+    component: RealEstate
   }
 ]
 

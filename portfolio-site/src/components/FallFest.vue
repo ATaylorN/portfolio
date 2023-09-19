@@ -11,9 +11,11 @@
 
       <div class="fallfest">
       <div class="socialmedia">
+        <div class="smtext">
         <h1>Fall Fest 2022</h1>
         <p class="title">Janszen Associates' wanted to host a fall-themed event that specifically targeted their past clients
             as a way to thank them for their business and referrals. This campaign included social media posts, emails, and physical signage for the event.</p>
+        </div>
         <div class="posts">
         <h2>Facebook and Instagram Posts</h2>
         <p>For a successful campaign, I created multiple eye-catching graphics to and posted frequently leading up to the event. </p>
@@ -61,6 +63,13 @@ export default {
 </script>
 
 <style scoped>
+.smtext{
+  grid-area: campaign;
+  background-color: #002130;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+}
 .fallfest {
   border-radius: 10px;
   padding: 2rem 4rem 1rem 4rem;
@@ -99,6 +108,7 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 2rem;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -132,7 +142,7 @@ export default {
 .fbevent{
   margin-left: auto;
   margin-right: auto;
-  margin-top: -400px;
+  margin-top: -300px;
   grid-area: facebook;
   padding: 3rem 2rem 0rem 2rem;
   max-height: 1060px;

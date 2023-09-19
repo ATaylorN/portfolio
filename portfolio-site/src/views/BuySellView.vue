@@ -1,19 +1,19 @@
 <template>
   <div>
     <Header/>
-    <HopsHomes/>
+    <BuySell/>
   </div>
 </template>
 
 <script>
 import Header from '../components/Header.vue'
-import HopsHomes from '../components/HopsHomes.vue'
+import BuySell from '../components/BuySell.vue'
 
 export default {
-    name: 'marketing-section',
+    name: 'buy-and-sell',
     components: {
         Header,
-        HopsHomes
+        BuySell
     }
 }
 </script>

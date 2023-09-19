@@ -1,5 +1,5 @@
 <template>
-   <div class="marketing">
+  <div class="marketing">
     <div class="icons">
     <h1>Tools I Use:</h1>
       <img src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
@@ -9,18 +9,23 @@
       <img src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
       </div>
 
-      <div class="fallfest">
+      <div class="buysell">
       <div class="socialmedia">
-        <h1>Buying/Selling a Home Seminar 2023</h1>
-        <p class="title">Janszen Associates' want. This campaign included social media posts, emails, and physical signage for the event.</p>
+        <div class="smtext">
+        <h1>Buying/Selling Seminar 2022</h1>
+        <p class="title">The  real estate market can be confusing so to help, Janszen Associates' hosted a Home Buying/Selling Seminar. 
+          This campaign included social media posts, emails, and physical signage for the event.</p>
+        </div>
         <div class="posts">
         <h2>Facebook and Instagram Posts</h2>
         <p>For a successful campaign, I created multiple eye-catching graphics to and posted frequently leading up to the event. </p>
         <div class="smphotos">
-        <img src="../assets/Images/marketing/buysell1.png" alt="Save the date version 1" />
-        <img src="../assets/Images/marketing/buysell2.png" alt="Save the date version 2" />
-        <img src="../assets/Images/marketing/buysell3.png" alt="Save the date version 3" />
-        <img src="../assets/Images/marketing/buysell4.png" alt="Save the date version 4" />
+        <img src="../assets/Images/marketing/buysell1.png" alt="Home Feeling Too Small graphic" />
+        <img src="../assets/Images/marketing/buysell2.png" alt="Home Feeling Too Big graphic" />
+        <img src="../assets/Images/marketing/buysell3.png" alt="We Can Help graphic" />
+        <img src="../assets/Images/marketing/buysell4.png" alt="Buying and Selling details graphic" />
+        <img src="../assets/Images/marketing/buysellsavedate.png" alt="Save the date version 1" />
+        <img src="../assets/Images/marketing/buysellsavedate2.png" alt="Save the date version 2" />
         </div>
         </div>
 
@@ -36,6 +41,19 @@
         <img src="../assets/Images/marketing/buysell4.png" alt="Facebook event details">
         </div>
         </div>
+    
+      <div class="email">
+        <div class="etext">
+        <h2>Email Campaign:</h2>
+        <p>Since not all of their clients are on social media, I did email and post card (not pictured) campaigns</p>
+        </div>
+        <div class="ephotos">
+        <img src="../assets/Images/marketing/buysell1.png" alt="Email part1" />
+        <img src="../assets/Images/marketing/buysell2.png" alt="Email part2" />
+        <img src="../assets/Images/marketing/buysell3.png" alt="Email part3" />
+        <img src="../assets/Images/marketing/buysell4.png" alt="Email part4" />
+        </div>
+      </div>
     </div>
 </div>
 
@@ -49,14 +67,21 @@ export default {
 </script>
 
 <style scoped>
-.fallfest {
+.smtext{
+  grid-area: campaign;
+  background-color: #5c919e;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+.buysell {
   border-radius: 10px;
   padding: 2rem 4rem 1rem 4rem;
   margin-left: auto;
   margin-right: auto;
 }
 .etext{
-  max-width: 500px;
+  max-width: 600px;
 }
 .ephotos{
   display: flex;
@@ -64,34 +89,36 @@ export default {
 }
 .email img{
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 600px;
 }
 .fephotos{
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 }
 .socialmedia {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas: "campaign campaign"
                       "title title"
                       "insta email"
                       "facebook email";
 }
 .socialmedia h1{
-  color: #B95952;
+  color: #002130;
 }
 .email{
   grid-area: email;
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .title{
   grid-area: title;
-  max-width: 1200px;
+  max-width: 1500px;
   margin-bottom: 2rem;
 }
 .posts{
@@ -100,8 +127,8 @@ export default {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  max-height: 850px;
-  border: 4px solid goldenrod;
+  max-height: 1150px;
+  border: 4px solid #5c919e;
   border-radius: 10px;
 }
 .posts p{
@@ -119,9 +146,11 @@ export default {
 .fbevent{
   margin-left: auto;
   margin-right: auto;
+  margin-top: -00px;
   grid-area: facebook;
   padding: 3rem 2rem 0rem 2rem;
-  background-color:#002130;
+  max-height: 1280px;
+  background-color:#5c919e;
   color: white;
   border-radius: 10px;
 }
@@ -166,6 +195,6 @@ export default {
 .marketing h2{
   margin-bottom: 1rem;
   font-family: 'Oswald', Courier, monospace;
-  color: goldenrod;
+  color: #FF577A;
 }
 </style>

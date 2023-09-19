@@ -20,8 +20,8 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Marketing</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/fall-fest">Fall Fest</a></li>
-            <li><a class="dropdown-item" href="/hops-and-homes">Hops & Homes</a></li>
-            <li><a class="dropdown-item" href="#">Real Estate</a></li>
+            <li><a class="dropdown-item" href="/buy-and-sell">Buying/Selling Seminar</a></li>
+            <li><a class="dropdown-item" href="/real-estate">Real Estate</a></li>
           </ul>
         </li>
       <li class="nav-item">

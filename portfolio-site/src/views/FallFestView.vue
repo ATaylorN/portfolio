@@ -10,7 +10,7 @@ import Header from '@/components/Header.vue'
 import FallFest from '@/components/FallFest.vue'
 
 export default {
-    name: "about-me",
+    name: "fall-fest",
     components: {
         Header,
         FallFest
