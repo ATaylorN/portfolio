@@ -1,5 +1,5 @@
 <template>
-  <div class="marketing">
+   <div class="marketing">
     <div class="icons">
     <h1>Tools I Use:</h1>
       <img src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
@@ -11,17 +11,16 @@
 
       <div class="fallfest">
       <div class="socialmedia">
-        <h1>Fall Fest 2022</h1>
-        <p class="title">Janszen Associates' wanted to host a fall-themed event that specifically targeted their past clients
-            as a way to thank them for their business and referrals. This campaign included social media posts, emails, and physical signage for the event.</p>
+        <h1>Buying/Selling a Home Seminar 2023</h1>
+        <p class="title">Janszen Associates' want. This campaign included social media posts, emails, and physical signage for the event.</p>
         <div class="posts">
         <h2>Facebook and Instagram Posts</h2>
         <p>For a successful campaign, I created multiple eye-catching graphics to and posted frequently leading up to the event. </p>
         <div class="smphotos">
-        <img src="../assets/Images/marketing/fallfest1.png" alt="Save the date version 1" />
-        <img src="../assets/Images/marketing/fallfest2.png" alt="Save the date version 2" />
-        <img src="../assets/Images/marketing/fallfest3.png" alt="Save the date version 3" />
-        <img src="../assets/Images/marketing/fallfest4.png" alt="Save the date version 4" />
+        <img src="../assets/Images/marketing/buysell1.png" alt="Save the date version 1" />
+        <img src="../assets/Images/marketing/buysell2.png" alt="Save the date version 2" />
+        <img src="../assets/Images/marketing/buysell3.png" alt="Save the date version 3" />
+        <img src="../assets/Images/marketing/buysell4.png" alt="Save the date version 4" />
         </div>
         </div>
 
@@ -33,21 +32,10 @@
         </p>
         </div>
         <div class="fephotos">
-        <img src="../assets/Images/marketing/fallfestfb.jpg" alt="Facebook event banner">
-        <img src="../assets/Images/marketing/fallfestemail.jpg" alt="Facebook event details">
+        <img src="../assets/Images/marketing/buysellfbevent.png" alt="Facebook event banner">
+        <img src="../assets/Images/marketing/buysell4.png" alt="Facebook event details">
         </div>
         </div>
-    
-      <div class="email">
-        <div class="etext">
-        <h2>Email Campaign:</h2>
-        <p>Since not all of their clients are on social media, I did email and post card (not pictured) campaigns</p>
-        </div>
-        <div class="ephotos">
-        <img src="../assets/Images/marketing/fallfestemail3.jpg" alt="Email campaign">
-        <img src="../assets/Images/marketing/fallfestemail2.jpg" alt="Email campaign pg2">
-        </div>
-      </div>
     </div>
 </div>
 
@@ -68,7 +56,7 @@ export default {
   margin-right: auto;
 }
 .etext{
-  max-width: 600px;
+  max-width: 500px;
 }
 .ephotos{
   display: flex;
@@ -76,16 +64,16 @@ export default {
 }
 .email img{
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 500px;
 }
 .fephotos{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 .socialmedia {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
   grid-template-areas: "campaign campaign"
                       "title title"
                       "insta email"
@@ -99,12 +87,11 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 2rem;
 }
 .title{
   grid-area: title;
-  max-width: 1500px;
+  max-width: 1200px;
   margin-bottom: 2rem;
 }
 .posts{
@@ -132,10 +119,8 @@ export default {
 .fbevent{
   margin-left: auto;
   margin-right: auto;
-  margin-top: -400px;
   grid-area: facebook;
   padding: 3rem 2rem 0rem 2rem;
-  max-height: 1060px;
   background-color:#002130;
   color: white;
   border-radius: 10px;

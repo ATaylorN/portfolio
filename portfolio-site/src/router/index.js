@@ -5,6 +5,7 @@ import AboutMe from '../views/AboutMeView.vue'
 import Coding from '../views/CodingProjectsView.vue'
 import Marketing from '../views/MarketingSectionView.vue'
 import FallFest from '../views/FallFestView.vue'
+import HopsHomes from '../views/HopsHomesView.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/fall-fest',
     name: 'fall-fest',
     component: FallFest
+  },
+  {
+    path: '/hops-and-homes',
+    name: 'hops-and-homes',
+    component: HopsHomes
   }
 ]
 

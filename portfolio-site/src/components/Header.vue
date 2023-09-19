@@ -1,9 +1,15 @@
 <template>
-<div>
   <nav class="navbar navbar-expand-sm" id="header">
   <div class="container-fluid">
     <a href="/" class="navbar-text">Amanda Taylor - Software Developer</a>
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
      <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="/about">About Me</a>
       </li>
@@ -14,7 +20,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Marketing</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/fall-fest">Fall Fest</a></li>
-            <li><a class="dropdown-item" href="#">Hops & Homes</a></li>
+            <li><a class="dropdown-item" href="/hops-and-homes">Hops & Homes</a></li>
             <li><a class="dropdown-item" href="#">Real Estate</a></li>
           </ul>
         </li>
@@ -25,9 +31,9 @@
         <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
+    </div>
   </div>
 </nav>
-</div>
 </template>
 
 <script>
@@ -38,6 +44,7 @@ export default {
 
 
 <style scoped>
+
 #header a{
   text-decoration: none;
   color: white;
