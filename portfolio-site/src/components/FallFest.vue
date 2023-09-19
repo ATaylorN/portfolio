@@ -125,6 +125,7 @@ export default {
   margin-right: auto;
   max-height: 850px;
   border: 4px solid goldenrod;
+  box-shadow: 0px 5px 20px 0px goldenrod;
   border-radius: 10px;
 }
 .posts p{
@@ -149,6 +150,7 @@ export default {
   background-color:#002130;
   color: white;
   border-radius: 10px;
+  box-shadow: 0px 5px 20px 0px black;
 }
 .fbtext{
   max-width: 600px;

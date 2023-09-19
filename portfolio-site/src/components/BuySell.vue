@@ -130,6 +130,7 @@ export default {
   max-height: 1150px;
   border: 4px solid #5c919e;
   border-radius: 10px;
+  box-shadow: 0px 5px 20px 0px #5c919e;
 }
 .posts p{
   max-width: 600px;
@@ -153,6 +154,7 @@ export default {
   background-color:#5c919e;
   color: white;
   border-radius: 10px;
+  box-shadow: 0px 5px 20px 0px black;
 }
 .fbtext{
   max-width: 600px;

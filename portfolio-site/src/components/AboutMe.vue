@@ -53,6 +53,7 @@ export default {
     /* border: 5px solid #B95952; */
     height: 710px;
     /* background-color: #B95952; */
+    box-shadow: 0px 5px 20px 0px black;
     background-image: url('../assets/Images/background/fogtexture.jpg');
     background-repeat:round;
     margin-top: -740px;

@@ -75,10 +75,11 @@ export default {
 <style scoped>
 .atwtext{
   grid-area: campaign;
-  /* background-color: #5c919e; */
   padding: 2rem;
   border-radius: 10px;
-  /* color: white; */
+  background-color: #002130;
+  color: white;
+  box-shadow: 0px 5px 20px 0px black;
 }
 .campaigns{
   border-radius: 10px;
@@ -111,9 +112,6 @@ export default {
                       "atw email"
                         "listings listings";
 }
-.alltheways h1{
-  color: #002130;
-}
 .email{
   grid-area: email;
   display: flex;
@@ -122,29 +120,23 @@ export default {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: #002130;
   border-radius: 10px;
-}
-.email h2{
-    color: white;
-}
-.email p{
-    color: white;
 }
 .title{
   grid-area: title;
-  max-width: 1500px;
+  max-width: 1680px;
   margin-bottom: 2rem;
 }
 .posts{
   grid-area: atw;
   padding: 2rem;
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-left: auto;
   margin-right: auto;
   max-height: 1480px;
   border: 4px solid #CE0F11;
   border-radius: 10px;
+  box-shadow: 0px 5px 20px 0px #CE0F11;
 }
 .posts h2{
 color: #CE0F11;
@@ -162,16 +154,16 @@ color: #CE0F11;
   gap: 1rem;
 }
 .listings{
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 1rem;
   grid-area: listings;
-  padding: 3rem 2rem 2rem 2rem;
-  /* background-color:#6EAFED;
-  color: white; */
+  padding: 4rem;
   border-radius: 10px;
+  background-color: #002130;
+  box-shadow: 0px 5px 20px 0px black;
 }
 .listtext{
-  max-width: 1500px;
+ max-width: 1550px;
+  color: white;
 }
 .listings img{
 max-width: 400px;
