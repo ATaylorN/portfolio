@@ -7,6 +7,7 @@ import Marketing from '../views/MarketingSectionView.vue'
 import FallFest from '../views/FallFestView.vue'
 import BuySell from '../views/BuySellView.vue'
 import RealEstate from '../views/RealEstateView.vue'
+import PortraitArt from '../views/PortraitsView.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ const routes = [
     path: '/real-estate',
     name: 'real-estate',
     component: RealEstate
+  },
+  {
+    path: '/portraits',
+    name: 'portrait-art',
+    component: PortraitArt
   }
 ]
 
