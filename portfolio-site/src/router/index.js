@@ -8,6 +8,7 @@ import FallFest from '../views/FallFestView.vue'
 import BuySell from '../views/BuySellView.vue'
 import RealEstate from '../views/RealEstateView.vue'
 import PortraitArt from '../views/PortraitsView.vue'
+import ContactMe from '../views/ContactMeView.vue'
 
 Vue.use(VueRouter)
 
@@ -51,6 +52,11 @@ const routes = [
     path: '/portraits',
     name: 'portrait-art',
     component: PortraitArt
+  },
+  {
+    path: '/contact',
+    name: 'contact-me',
+    component: ContactMe
   }
 ]
 
