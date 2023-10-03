@@ -6,9 +6,108 @@
     <h1>Under Construction</h1>
     <h2>Feel feel to browse but please keep in mind that it's a work in progress</h2>
     <p>Thanks!</p>
- </div>
+    <img src="../assets/Images/icons/linkedin.png" alt="LinkedIn: amanda-taylor1">
+    <img src="../assets/Images/icons/github.png" alt="GitHub: ATaylorN">
+    <img src="../assets/Images/icons/email.png" alt-="email: amandanagies@gmail.com">
  </div>
 
+<section class="coding">
+  <h2>Coding Projects - Title</h2>
+  <div class="icons">
+      <img src="../assets/Images/icons/bootstrap.png" alt="BootStrap logo" />
+      <img src="../assets/Images/icons/intellij.png" alt="IntelliJ logo" />
+      <img src="../assets/Images/icons/javascript.png" alt="JavaScript logo" />
+      <img src="../assets/Images/icons/java.png" alt="Java logo" />
+      <img src="../assets/Images/icons/html.png" alt="HTML logo" />
+      <img src="../assets/Images/icons/figma.png" alt="Figma logo" />
+      <img src="../assets/Images/icons/vue.png" alt="Vue logo" />
+      <img src="../assets/Images/icons/vscode.png" alt="Visual Studio Code logo" />
+      <img src="../assets/Images/icons/css.png" alt="CSS logo" />
+      <img src="../assets/Images/icons/pgadmin.png" alt="PostgreSQL logo" />
+  </div>
+  <div class="projects"></div>
+</section>
+
+  <section class="marketing">
+  <h2>Marketing - Title</h2>
+  <div class="icons">
+      <img src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
+      <img src="../assets/Images/icons/facebook.png" alt="Facebook logo" />
+      <img src="../assets/Images/icons/canva.png" alt="Canva logo" />
+      <img src="../assets/Images/icons/mailchimp.png" alt="MailChimp logo" />
+      <img src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
+  </div>
+  <div class="projects"></div>
+  </section>
+
+  <section class="portraits">
+    <h2>Portraits - Title</h2>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/Images/portraits/aerith_gainsborough.jpg" alt="FFVII - Aerith" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/chester_bennington.jpg" alt="Linkin Park - Chester Bennington" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/cutiepiesensei_cosplay.jpg" alt="CutiePieSensei - Black Panther Cosplay" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/eleventh_doctor.jpg" alt="Doctor Who - Eleventh Doctor" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/jessica_jones.jpg" alt="Jessica Jones - Jessica & Kilgrave" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/loki_of_asgard.jpg" alt="Marvel - Loki" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/newly_weds.jpg" alt="Commission - Newly Weds" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/nux.jpg" alt="Mad Max: Fury Road - Nux" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/tifa_lockhart.jpg" alt="FFVII - Tifa" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Images/portraits/nux2.jpg" alt="Mad Max: Fury Road - Nux" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" id="nextbtn"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon" id="nextbtn"></span>
+  </button>
+    </div>
+
+
+    <div class="portrait-categories"></div>
+  </section>
+
+  <section class="footer"></section>
+
+ </div>
 </template>
 
 <script>
@@ -24,12 +123,28 @@ export default {
 </script>
 
 <style>
-.home{
-  background-image: url('../assets/Images/background/fogtextureblue.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+#nextbtn{
+  background-color: gray;
+  border-radius: 8px;
+  height: 50px;
 }
+.footer{
+  margin-top: 2rem;
+  background-color: black;
+  width: 100vw;
+  height: 200px;
+}
+#demo{
+  border: 5px solid red;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#demo img {
+  object-fit: contain;
+  max-height: 700px;
+}
+
 .wip{
   margin-top: 10rem;
   margin-left: auto;

@@ -14,7 +14,13 @@
     <div class="contact">
        <a href="https://www.linkedin.com/in/amanda-taylor1/"> <img src="../assets/Images/icons/linkedin.png" alt="LinkedIn: amanda-taylor1"></a>
         <a href="https://github.com/ATaylorN"><img src="../assets/Images/icons/github.png" alt="GitHub: ATaylorN"></a>
-        <img src="../assets/Images/icons/email.png" alt="Email: amandanagies@gmail.com">
+        
+        <div class="dropdown">
+        <button type="button" data-bs-toggle="dropdown"><img src="../assets/Images/icons/email.png" alt="Email: amandanagies@gmail.com"> </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item">Email: amandanagies@gmail.com</a></li>
+        </ul>
+        </div>
         <div>
             <a href="https://icons8.com/">Icons by Icons8</a>
         </div>
@@ -84,7 +90,10 @@ export default {
 }
 .contact{
     grid-area: contact;
-    padding: 4rem;
+    padding: 4rem; 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
 }
 .contact img{
     max-width: 50px;
@@ -94,5 +103,9 @@ export default {
     text-decoration: none;
     color: gray;
     font-size: 12px;
+}
+.contact button{
+    border: none;
+    background-color: white;
 }
 </style>
