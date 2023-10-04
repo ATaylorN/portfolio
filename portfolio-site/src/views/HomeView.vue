@@ -5,7 +5,7 @@
 
 
 <section class="coding">
-  <h2>Software Development Projects</h2>
+  <h2><a href="/coding">Coding Projects</a></h2>
   <div class="icons">
       <img src="../assets/Images/icons/bootstrap.png" alt="BootStrap logo" />
       <img src="../assets/Images/icons/intellij.png" alt="IntelliJ logo" />
@@ -145,20 +145,21 @@
     </div>
   </section>
 
-  <section class="footer"></section>
-
+  <Footer/>
  </div>
 </template>
 
 <script>
 import Header from '@/components/Header.vue'
 import AboutMe from '@/components/AboutMe.vue'
+import Footer from '@/components/FooterPart.vue'
 
 export default {
   name: 'HomeView',
   components: {
     Header,
-    AboutMe
+    AboutMe,
+    Footer
   }
   
 }
@@ -167,6 +168,13 @@ export default {
 <style scoped>
 .coding{
   margin-top: 2rem;
+}
+.coding a {
+  text-decoration: none;
+  color:#002130;
+}
+.coding a:hover{
+  color: goldenrod;
 }
 .card-title{
   color: white;
@@ -184,6 +192,7 @@ export default {
   font-size: 48px;
   font-family: 'Oswald', Courier, monospace;
   font-weight: 400;
+  color: #002130;
 }
 .icons{
   margin-bottom: 4rem;
@@ -208,7 +217,7 @@ export default {
   gap: 2rem;
   justify-content: center;
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 .card-img-overlay{
   display: flex;
@@ -252,11 +261,7 @@ export default {
   border-radius: 8px;
   height: 80px;
 }
-.footer{
-  background-color: black;
-  width: 100vw;
-  height: 200px;
-}
+
 #demo{
   max-width: 70vw;
   margin-left: auto;

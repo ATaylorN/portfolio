@@ -10,9 +10,6 @@
       <li class="nav-item">
         <a class="nav-link" href="/">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about">About Me</a>
-      </li>
      <li class="nav-item">
         <a class="nav-link" href="/coding">Coding</a>
       </li>
@@ -49,10 +46,11 @@ export default {
   text-decoration: none;
   color: white;
   font-family:'Quantico', Courier, monospace;
+  font-size: 18px;
 }
 #header{
   background-color: #002130;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
 }
 #header a:hover{
   color: goldenrod;
