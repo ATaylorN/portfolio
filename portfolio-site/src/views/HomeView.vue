@@ -25,7 +25,8 @@
       <img src="../assets/Images/icons/css.png" alt="CSS logo" />
       <img src="../assets/Images/icons/pgadmin.png" alt="PostgreSQL logo" />
   </div>
-  <div class="projects"></div>
+  <div class="apps">
+  </div>
 </section>
 
   <section class="marketing">
@@ -37,7 +38,28 @@
       <img src="../assets/Images/icons/mailchimp.png" alt="MailChimp logo" />
       <img src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
   </div>
-  <div class="projects"></div>
+  <div class="projects">
+    <div class="card" style="width:500px">
+    <img class="card-img-top" src="../assets/Images/marketing/fallfest1.png" alt="Fall Fest Campaign">
+    <div class="card-img-overlay">
+    <h4 class="card-title">EVENT - FALL FEST</h4>
+  </div>
+</div>
+
+    <div class="card" style="width:400px">
+    <img class="card-img-top" src="../assets/Images/marketing/buysell3.png" alt="Buying/Selling Seminar">
+    <div class="card-body">
+    <h4 class="card-title"><a href="/buy-and-sell">Event: Buying/Selling Seminar</a></h4>
+    </div>
+    </div>
+
+    <div class="card" style="width:400px">
+    <img class="card-img-top" src="../assets/Images/marketing/closed.png" alt="Real Estate">
+    <div class="card-body">
+    <h4 class="card-title"><a href="/real-estate">Real Estate Campaigns</a></h4>
+    </div>
+    </div>
+  </div>
   </section>
 
   <section class="portraits">
@@ -100,9 +122,6 @@
     <span class="carousel-control-next-icon" id="nextbtn"></span>
   </button>
     </div>
-
-
-    <div class="portrait-categories"></div>
   </section>
 
   <section class="footer"></section>
@@ -122,29 +141,62 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.projects{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.card-img-overlay{
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(transparent 60%,black);
+}
+.card-img-overlay h4{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-img-top{
+  filter: blur(30%);
+}
+.portraits{
+  background-color: #002130;
+}
+.portraits h2 {
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-family: 'Oswald', Courier, monospace;
+  font-size: 32px;
+  font-weight: 300;
+}
 #nextbtn{
   background-color: gray;
   border-radius: 8px;
-  height: 50px;
+  height: 80px;
 }
 .footer{
-  margin-top: 2rem;
   background-color: black;
   width: 100vw;
   height: 200px;
 }
 #demo{
-  border: 5px solid red;
-  max-width: 1000px;
+  max-width: 70vw;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 2rem;
+  background-color: white;
+  border-radius: 10px;
 }
 #demo img {
   object-fit: contain;
-  max-height: 700px;
+  background-position: top;
+  max-height: 600px;
 }
-
 .wip{
   margin-top: 10rem;
   margin-left: auto;
