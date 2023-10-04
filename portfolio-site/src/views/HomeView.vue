@@ -1,15 +1,8 @@
 <template>
   <div class="home">
   <Header/>
+  <AboutMe/>
 
-  <div class="wip">
-    <h1>Under Construction</h1>
-    <h2>Feel feel to browse but please keep in mind that it's a work in progress</h2>
-    <p>Thanks!</p>
-    <img src="../assets/Images/icons/linkedin.png" alt="LinkedIn: amanda-taylor1">
-    <img src="../assets/Images/icons/github.png" alt="GitHub: ATaylorN">
-    <img src="../assets/Images/icons/email.png" alt-="email: amandanagies@gmail.com">
- </div>
 
 <section class="coding">
   <h2>Coding Projects - Title</h2>
@@ -40,30 +33,37 @@
   </div>
   <div class="projects">
     <div class="card" style="width:500px">
-    <img class="card-img-top" src="../assets/Images/marketing/fallfest1.png" alt="Fall Fest Campaign">
+      <a href="/fall-fest">
+    <img class="card-img-top" src="../assets/Images/marketing/fallfestpreview.png" alt="Fall Fest Campaign">
     <div class="card-img-overlay">
-    <h4 class="card-title">EVENT - FALL FEST</h4>
-  </div>
-</div>
-
-    <div class="card" style="width:400px">
-    <img class="card-img-top" src="../assets/Images/marketing/buysell3.png" alt="Buying/Selling Seminar">
-    <div class="card-body">
-    <h4 class="card-title"><a href="/buy-and-sell">Event: Buying/Selling Seminar</a></h4>
+    <h4 class="card-title">FALL FEST</h4>
     </div>
+    </a>
     </div>
 
-    <div class="card" style="width:400px">
-    <img class="card-img-top" src="../assets/Images/marketing/closed.png" alt="Real Estate">
-    <div class="card-body">
-    <h4 class="card-title"><a href="/real-estate">Real Estate Campaigns</a></h4>
+    <div class="card" style="width:500px">
+      <a href="/buy-and-sell">
+    <img class="card-img-top" src="../assets/Images/marketing/buysellpreview.png" alt="Buying/Selling Seminar">
+    <div class="card-img-overlay">
+    <h4 class="card-title">BUYING/SELLING SEMINAR</h4>
     </div>
+    </a>
     </div>
+
+    <div class="card" style="width:500px">
+      <a href="/real-estate">
+    <img class="card-img-top" src="../assets/Images/marketing/realestatepreview.png" alt="Real Estate">
+    <div class="card-img-overlay">
+    <h4 class="card-title">REAL ESTATE</h4>
+    </div>
+    </a>
+    </div>
+
   </div>
   </section>
 
   <section class="portraits">
-    <h2>Portraits - Title</h2>
+    <h2><a href="/portraits">Portraits - Title</a></h2>
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators/dots -->
   <div class="carousel-indicators">
@@ -77,7 +77,6 @@
     <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
   </div>
 
   <!-- The slideshow/carousel -->
@@ -131,48 +130,61 @@
 
 <script>
 import Header from '@/components/Header.vue'
+import AboutMe from '@/components/AboutMe.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Header
+    Header,
+    AboutMe
   }
   
 }
 </script>
 
 <style scoped>
+.card{
+  box-shadow: 0px 5px 20px 0px black;
+  border: none;
+}
+.card:hover{
+  transform: scale(1.1); 
+  transition-duration: 0.8s;
+}
 .projects{
   display: flex;
   flex-direction: row;
   gap: 2rem;
   justify-content: center;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .card-img-overlay{
   display: flex;
   align-items: flex-end;
-  background: linear-gradient(transparent 60%,black);
+  background: linear-gradient(transparent 50%,black);
 }
 .card-img-overlay h4{
-  color: white;
   margin-left: auto;
   margin-right: auto;
 }
-.card-img-top{
-  filter: blur(30%);
+.card a{
+  text-decoration: none;
+  color: white;
 }
 .portraits{
   background-color: #002130;
 }
 .portraits h2 {
-  color: white;
   padding: 3rem 1rem;
   text-align: center;
   font-family: 'Oswald', Courier, monospace;
   font-size: 32px;
   font-weight: 300;
+}
+.portraits a {
+  text-decoration: none;
+  color: white;
 }
 #nextbtn{
   background-color: gray;
@@ -196,33 +208,5 @@ export default {
   object-fit: contain;
   background-position: top;
   max-height: 600px;
-}
-.wip{
-  margin-top: 10rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2rem;
-  width: 900px;
-  text-align: center;
-  border-radius: 10px;
-  background-color: #B95952;
-  color: white;
-}
-.wip h1{
-  font-family: 'Quantico', Courier, monospace;
-  font-size: 75px;
-  font-weight: 700;
-  margin-bottom: 2rem;
-}
-.wip h2{
-  font-family: 'Oswald', Courier, monospace;
-  font-size: 32px;
-  font-weight: 300;
-  margin-bottom: 1rem;
-}
-.wip p{
-  font-family: 'Oswald', Courier, monospace;
-  font-size: 20px;
-  font-weight: 300;
 }
 </style>
