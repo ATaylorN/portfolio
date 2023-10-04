@@ -84,7 +84,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .icons{
    margin-bottom: 6rem;
    margin-left: auto;

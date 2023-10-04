@@ -195,4 +195,7 @@ export default {
   font-family: 'Oswald', Courier, monospace;
   color: goldenrod;
 }
+.icons img{
+  max-width: 70px;
+}
 </style>

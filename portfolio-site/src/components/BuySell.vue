@@ -172,6 +172,9 @@ export default {
   text-align: center;
   color:#002130;
 }
+.icons img{
+  max-width: 70px;
+}
 .marketing{
   display: flex;
   flex-direction: column;

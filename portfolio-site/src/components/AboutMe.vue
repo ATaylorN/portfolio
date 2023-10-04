@@ -37,7 +37,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .me{
     grid-area: photo;
     max-width: 400px;
@@ -62,8 +62,8 @@ export default {
     box-shadow: 0px 5px 20px 0px black;
     background-image: url('../assets/Images/background/fogtexture.jpg');
     background-repeat:round;
-    margin-top: -740px;
-    margin-left: -40px;
+    margin-top: -660px;
+    margin-left: -50px;
     margin-right: 40px;
     z-index: -1;
 }
@@ -93,16 +93,24 @@ export default {
     padding: 4rem; 
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 500px;
 }
 .contact img{
-    max-width: 50px;
+    max-width: 80px;
     margin-right: 20px;
 }
 .contact a{
     text-decoration: none;
     color: gray;
     font-size: 12px;
+}
+.contact a:hover{
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+}
+.contact button:hover{
+    transform: scale(1.2);
+    transition-duration: 0.8s;
 }
 .contact button{
     border: none;

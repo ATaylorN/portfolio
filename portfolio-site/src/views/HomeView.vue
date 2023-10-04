@@ -5,7 +5,7 @@
 
 
 <section class="coding">
-  <h2>Coding Projects - Title</h2>
+  <h2>Software Development Projects</h2>
   <div class="icons">
       <img src="../assets/Images/icons/bootstrap.png" alt="BootStrap logo" />
       <img src="../assets/Images/icons/intellij.png" alt="IntelliJ logo" />
@@ -19,11 +19,32 @@
       <img src="../assets/Images/icons/pgadmin.png" alt="PostgreSQL logo" />
   </div>
   <div class="apps">
+    <div class="card" style="width:500px">
+    <img class="card-img-top" src="../assets/Images/coding/mealplannerpreview.png" alt="Meal Planner App">
+    <div class="card-img-overlay">
+    <h4 class="card-title">MEAL PLANNER APP</h4>
+    </div>
+    </div>
+
+    <div class="card" style="width:500px">
+    <img class="card-img-top" src="../assets/Images/coding/landing-page.png" alt="Flashcards App">
+    <div class="card-img-overlay">
+    <h4 class="card-title">FLASHCARDS APP</h4>
+    </div>
+    </div>
+
+    <div class="card" style="width:500px">
+    <img class="card-img-top" src="../assets/Images/coding/library.png" alt="Library App">
+    <div class="card-img-overlay">
+    <h4 class="card-title">LIBRARY APP - IN PROGRESS</h4>
+    </div>
+    </div>
+
   </div>
 </section>
 
   <section class="marketing">
-  <h2>Marketing - Title</h2>
+  <h2>Marketing Campaigns</h2>
   <div class="icons">
       <img src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
       <img src="../assets/Images/icons/facebook.png" alt="Facebook logo" />
@@ -63,7 +84,8 @@
   </section>
 
   <section class="portraits">
-    <h2><a href="/portraits">Portraits - Title</a></h2>
+    <h2><a href="/portraits">Graphite Pencil Portraits</a></h2>
+    <p>Using primarily graphite pencil with the occasional acrylic paint for a pop of color, each portrait takes roughly 40+ hours. I've drawn characters from several of my favorite shows, movies, video games, along with the occasional commission.</p>
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators/dots -->
   <div class="carousel-indicators">
@@ -143,11 +165,40 @@ export default {
 </script>
 
 <style scoped>
+.coding{
+  margin-top: 2rem;
+}
+.card-title{
+  color: white;
+}
+.apps{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.home h2{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Oswald', Courier, monospace;
+  font-weight: 400;
+}
+.icons{
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icons img{
+  max-width: 50px;
+}
 .card{
   box-shadow: 0px 5px 20px 0px black;
   border: none;
 }
-.card:hover{
+.projects .card:hover{
   transform: scale(1.1); 
   transition-duration: 0.8s;
 }
@@ -157,7 +208,7 @@ export default {
   gap: 2rem;
   justify-content: center;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 .card-img-overlay{
   display: flex;
@@ -174,17 +225,27 @@ export default {
 }
 .portraits{
   background-color: #002130;
+  padding: 2rem;
 }
 .portraits h2 {
   padding: 3rem 1rem;
   text-align: center;
-  font-family: 'Oswald', Courier, monospace;
-  font-size: 32px;
-  font-weight: 300;
+}
+.portraits p {
+  color: white;
+  margin-bottom: 2rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center;
 }
 .portraits a {
   text-decoration: none;
   color: white;
+}
+.portraits a:hover{
+  color: goldenrod;
 }
 #nextbtn{
   background-color: gray;
@@ -207,6 +268,6 @@ export default {
 #demo img {
   object-fit: contain;
   background-position: top;
-  max-height: 600px;
+  max-height: 800px;
 }
 </style>
