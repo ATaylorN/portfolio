@@ -66,6 +66,7 @@ export default {
     margin-left: -50px;
     margin-right: 40px;
     z-index: -1;
+    border-radius: 8px;
 }
 .about-me{
     grid-area: me;
