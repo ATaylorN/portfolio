@@ -97,7 +97,7 @@ export default {};
 .coding{
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 .coding h1{
   font-family: 'Quantico', Courier, monospace;
@@ -123,7 +123,7 @@ export default {};
   background-color: #002130;
   border-radius: 10px;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   align-items: center;
   justify-items: center;
   box-shadow: 0px 5px 20px 0px black;
@@ -148,7 +148,7 @@ export default {};
   background-color: #B95952;
   border-radius: 10px;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   align-items: center;
   box-shadow: 0px 5px 20px 0px black;
   padding: 2rem 0rem;
@@ -167,7 +167,7 @@ export default {};
   background-color: #B95952;
   border-radius: 10px;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   align-items: center;
   box-shadow: 0px 5px 20px 0px black;
   padding: 2rem 0rem;

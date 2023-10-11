@@ -44,7 +44,7 @@
   gap: 200px;
   padding: 4rem;
   background-color: #002130;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-family: Oswald, sans-serif;
   font-weight: 800;
