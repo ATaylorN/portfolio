@@ -77,7 +77,7 @@ export default {
     color: white;
 }
 .about-me h1{
-    text-align: center;
+    padding-left: 200px;
     padding-bottom: 2rem;
     font-size: 64px;
     font-family: 'Quantico', Courier, monospace;

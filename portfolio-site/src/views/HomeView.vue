@@ -167,7 +167,7 @@ export default {
 
 <style scoped>
 .coding{
-  margin-top: 2rem;
+  margin-top: -100px;
 }
 .coding a {
   text-decoration: none;
@@ -182,10 +182,10 @@ export default {
 .apps{
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: center;
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 .home h2{
   text-align: center;
@@ -214,7 +214,7 @@ export default {
 .projects{
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: center;
   text-align: center;
   margin-bottom: 6rem;

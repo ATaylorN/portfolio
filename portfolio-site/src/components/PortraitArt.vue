@@ -333,9 +333,21 @@ export default {
 </script>
 
 <style scoped>
+.modal{
+    overflow: hidden;
+}
 .modal-header{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+}
+.modal-header h4{
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+}
+.modal-header p{
+    font-style: italic;
 }
 button{
     border: none;
