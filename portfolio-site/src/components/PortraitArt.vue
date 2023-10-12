@@ -15,14 +15,17 @@
         <div class="modal-content">
         <div class="modal-header">
             <h4 class="modal-title">Mad Max: Fury Road - Nux</h4>
+            <p>"What a day! What a lovely day! -Nux"</p>
             <button type="button" class="btn-close" data-bs-dismiss="modal" @click="resetImg()"></button>
         </div>
         <div class="modal-body">
             <div v-show="showImage"><img class="card-img-top" src="../assets/Images/portraits/nux.jpg" alt="Nux"></div>
-            <div v-show="showDescription"><p v-show="showDescription">Insert description here...</p></div>
+            <div v-show="showDescription"><p v-show="showDescription">Nux is a character from 'Mad Max: Fury Road' played by Nicholas Hoult.
+                Previously one of the 'War Boys', he eventually teams up with Max and Furiosa. This piece took an especially long time to complete
+                because of all the small details in this image. The tattoo on his chest, for example, took forever!</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Description</button>
+        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -46,10 +49,13 @@
         </div>
         <div class="modal-body">
             <div v-show="showImage"><img class="card-img-top" src="../assets/Images/portraits/nux2.jpg" alt="Nux"></div>
-            <div v-show="showDescription"><p v-show="showDescription">Insert description here...</p></div>
+            <div v-show="showDescription"><p v-show="showDescription">Nux is a character from 'Mad Max: Fury Road' played by Nicholas Hoult.
+                Previously one of the 'War Boys', he eventually teams up with Max and Furiosa. In the movie, there's a scene where he spray paints
+                his mouth silver so in the original piece, I painted his mouth silver as well. It adds a really cool effect as well when the light hits it.
+                </p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Description</button>
+        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -73,10 +79,12 @@
         </div>
         <div class="modal-body">
             <div v-show="showImage"><img class="card-img-top" src="../assets/Images/portraits/chester_bennington.jpg" alt="Chester Bennington"></div>
-            <div v-show="showDescription"><p v-show="showDescription">Insert description here...</p></div>
+            <div v-show="showDescription"><p v-show="showDescription">I grew up listening to Linkin Park and was devastated when Chester Bennington passed away.
+            I drew this in memory of him and to help myself process it. I took a bit of a different approach to my signature here, choosing instead to weave my name into
+            the graphic on his shirt.</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Description</button>
+        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
