@@ -280,7 +280,7 @@
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/aerith_gainsborough.jpg" alt="FFVII - Aerith">
             <div class="card-img-overlay">
-            <h4 class="card-title">FFVII - Aerith</h4>
+            <h4 class="card-title">FFVII - Aerith Gainsborough</h4>
             </div>
         </div>
     </button>
@@ -288,13 +288,15 @@
         <div class="modal-dialog">
         <div class="modal-content">
         <div class="modal-header">
-            <h4 class="modal-title">Final Fantasy VII - Aerith</h4>
-            <p>quote here</p>
+            <h4 class="modal-title">Final Fantasy VII - Aerith Gainsborough</h4>
+            <p>"Don't fight here! You'll ruin the flowers!" -Aerith Gainsborough</p>
             <button type="button" class="btn-close" data-bs-dismiss="modal" @click="resetImg()"></button>
         </div>
         <div class="modal-body">
             <div v-show="showImage"><img class="card-img-top" src="../assets/Images/portraits/aerith_gainsborough.jpg" alt="FFVII - Aerith"></div>
-            <div v-show="showDescription"><p v-show="showDescription">Insert description here...</p></div>
+            <div v-show="showDescription"><p v-show="showDescription">Aerith Gainsborough is a character from the video game 'Final Fantasy VII'. She's a
+                flower peddler and the last of the Cetra, which is an ancient race with magical powers. She's spent her live running from Shinra, which seeks to
+                use her powers, and ends up teaming up with Cloud to fight Shinra and take on Sephiroth.</p></div>
         </div>
         <div class="modal-footer">
         <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
