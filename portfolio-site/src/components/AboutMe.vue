@@ -28,6 +28,7 @@
                 <textarea name="message"></textarea>
                 <input type="submit" value="Send">
             </form></li>
+            <li v-show="showStatus=true">{{statusMessage}}</li>
         </ul>
         </div>
         <div>
@@ -44,11 +45,18 @@
 import emailjs from '@emailjs/browser';
 
 export default {
+    data(){
+        return{
+            showStatus: false,
+            statusMessage: ''
+        }
+    },
     methods: {
     sendEmail() {
       emailjs.sendForm('Contact_Me', 'contact_form', this.$refs.form, 'GEie82de2ImMbutSn')
         .then((result) => {
             console.log('SUCCESS!', result.text);
+            this.statusMessage = 'Email Sent!'
         }, (error) => {
             console.log('FAILED...', error.text);
         });
