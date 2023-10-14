@@ -57,6 +57,7 @@ export default {
         .then((result) => {
             console.log('SUCCESS!', result.text);
             this.statusMessage = 'Email Sent!'
+            this.$refs.form.reset();
         }, (error) => {
             console.log('FAILED...', error.text);
         });
