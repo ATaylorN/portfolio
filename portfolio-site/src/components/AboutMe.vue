@@ -19,6 +19,15 @@
         <button type="button" data-bs-toggle="dropdown"><img src="../assets/Images/icons/email.png" alt="Email: amandanagies@gmail.com"> </button>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item">Email: amandanagies@gmail.com</a></li>
+            <li><form ref="form" @submit.prevent="sendEmail">
+                <label>Name</label>
+                <input type="text" name="user_name">
+                <label>Email</label>
+                <input type="email" name="user_email">
+                <label>Message</label>
+                <textarea name="message"></textarea>
+                <input type="submit" value="Send">
+            </form></li>
         </ul>
         </div>
         <div>
@@ -26,14 +35,25 @@
         </div>
     </div>
 
-    <container class="behindimg"/>
+    <container class="behindimg"></container>
   </div>
   </div>
 </template>
 
 <script>
-export default {
+import emailjs from '@emailjs/browser';
 
+export default {
+    methods: {
+    sendEmail() {
+      emailjs.sendForm('Contact_Me', 'contact_form', this.$refs.form, 'GEie82de2ImMbutSn')
+        .then((result) => {
+            console.log('SUCCESS!', result.text);
+        }, (error) => {
+            console.log('FAILED...', error.text);
+        });
+    }
+  }
 }
 </script>
 

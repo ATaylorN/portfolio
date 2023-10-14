@@ -261,7 +261,6 @@ export default {
   border-radius: 8px;
   height: 80px;
 }
-
 #demo{
   max-width: 70vw;
   margin-left: auto;
