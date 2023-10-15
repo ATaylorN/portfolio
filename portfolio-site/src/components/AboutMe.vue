@@ -18,17 +18,17 @@
         <div class="dropdown">
         <button type="button" data-bs-toggle="dropdown"><img src="../assets/Images/icons/email.png" alt="Email: amandanagies@gmail.com"> </button>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item">Email: amandanagies@gmail.com</a></li>
-            <li><form ref="form" @submit.prevent="sendEmail">
+            <li class="dropdown-item"><h4>Email Me</h4>
+                <form ref="form" @submit.prevent="sendEmail" class="form">
                 <label>Name</label>
-                <input type="text" name="user_name">
+                <input type="text" name="user_name" required>
                 <label>Email</label>
-                <input type="email" name="user_email">
+                <input type="email" name="user_email" required>
                 <label>Message</label>
-                <textarea name="message"></textarea>
-                <input type="submit" value="Send">
+                <textarea name="message" required></textarea>
+                <input type="submit" value="SEND" class="send">
             </form></li>
-            <li v-show="showStatus=true">{{statusMessage}}</li>
+            <li class="status" v-show="showStatus=true">{{statusMessage}}</li>
         </ul>
         </div>
         <div>
@@ -60,6 +60,7 @@ export default {
             this.$refs.form.reset();
         }, (error) => {
             console.log('FAILED...', error.text);
+            this.statusMessage = "Error Occurred. Please Try Again!"
         });
     }
   }
@@ -67,6 +68,58 @@ export default {
 </script>
 
 <style scoped>
+.status{
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    padding: 1rem;
+    color:#002130;
+    font-weight: 500;
+}
+.dropdown-item:active{
+    background-color: white;
+}
+.send{
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #B95952;
+    border: none;
+    padding: 1rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.send:hover{
+    background-color: #002130;
+}
+.form textarea{
+    height: 200px;
+    font-size: 18px;
+}
+.dropdown-item h4{
+    font-family: Oswald, sans-serif;
+    color: #B95952;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    min-width: 400px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.form label{
+    font-size: 20px;
+    font-family: Oswald,sans-serif;
+    color: #002130;
+    font-weight: 500;
+}
 .me{
     grid-area: photo;
     max-width: 400px;
@@ -85,9 +138,7 @@ export default {
 }             
 .behindimg{
     grid-area: behind;
-    /* border: 5px solid #B95952; */
     height: 710px;
-    /* background-color: #B95952; */
     box-shadow: 0px 5px 20px 0px black;
     background-image: url('../assets/Images/background/fogtexture.jpg');
     background-repeat:round;

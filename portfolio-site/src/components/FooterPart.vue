@@ -16,15 +16,6 @@
 
        </div>
 
-    <div class="contact">
-    <h2>Questions or Comments?</h2>
-    <p>Feel free to email me</p>
-    <div class="item">
-    <img src="../assets/Images/icons/email.png" alt="email icon">
-    <p>amandanagies@gmail.com</p>
-    </div>
-    </div>
-
   </div>
 </template>
 
