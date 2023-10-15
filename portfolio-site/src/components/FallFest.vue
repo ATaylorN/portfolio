@@ -198,4 +198,19 @@ export default {
 .icons img{
   max-width: 70px;
 }
+@media (max-width: 1415px){
+  .socialmedia {
+  grid-template-columns: 1fr;
+  grid-template-areas: "campaign"
+                      "title"
+                      "insta"
+                      "facebook"
+                      "email";
+}
+.fbevent{
+  margin-top: 50px;
+  padding: 3rem 2rem 2rem 2rem;
+  max-height: 1080px;
+}
+}
 </style>

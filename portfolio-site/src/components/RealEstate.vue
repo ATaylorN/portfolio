@@ -166,8 +166,12 @@ color: #CE0F11;
   color: white;
 }
 .listings img{
-max-width: 400px;
+  max-width: 400px;
   border-radius: 10px;
+}
+.listphotos{
+  display: flex;
+  flex-wrap: wrap;
 }
 .icons{
    margin-bottom: 4rem;
@@ -206,5 +210,18 @@ max-width: 400px;
 .marketing h2{
   margin-bottom: 1rem;
   font-family: 'Oswald', Courier, monospace;
+}
+@media (max-width: 1415px){
+  .alltheways {
+    grid-template-columns: 1fr;
+    grid-template-areas: "campaign"
+                          "title"
+                          "atw"
+                          "email"
+                          "listings";
+}
+  .listings img{
+    max-width: 200px;
+  }
 }
 </style>
