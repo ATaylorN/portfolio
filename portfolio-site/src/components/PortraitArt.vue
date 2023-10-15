@@ -25,7 +25,7 @@
                 because of all the small details in this image. The tattoo on his chest, for example, took forever!</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -57,7 +57,7 @@
                 </p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -87,7 +87,7 @@
             the graphic on his shirt.</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -118,7 +118,7 @@
                 role of the Doctor over the years. The 11th Doctor was played by Matt Smith and is one of my favorites.</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -149,7 +149,7 @@
                 the 10th Doctor in Doctor Who and is my favorite Doctor) in person at ComicCon and got him to sign the original piece!</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -179,7 +179,7 @@
             was one of the first pieces were I decided that it needed a pop of color so I used a combination of colored pencils and acrylic paint to add the purple.</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -211,7 +211,7 @@
                 </p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -240,7 +240,7 @@
                  it for all of their guests as you walked into the reception. This was such a great piece to work on and they loved it!</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -269,7 +269,7 @@
                 childhood friend, owner of the 7th Heaven bar, member of AVALANCHE, and a martial arts fighter.</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
@@ -299,7 +299,7 @@
                 use her powers, and ends up teaming up with Cloud to fight Shinra and take on Sephiroth.</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-danger" @click="toggleDescription()">Toggle Description</button>
+        <button type="button" class="btn btn-warning" @click="toggleDescription()">Toggle Description</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal" @click="resetImg()">Close</button>
         </div>
         </div>
