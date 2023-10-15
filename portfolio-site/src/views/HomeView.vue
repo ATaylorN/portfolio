@@ -274,4 +274,5 @@ export default {
   background-position: top;
   max-height: 800px;
 }
+
 </style>

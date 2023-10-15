@@ -197,4 +197,64 @@ export default {
     border: none;
     background-color: white;
 }
+@media (min-width: 500px){
+    #behindimg{
+        margin-top: -1150px;
+    }
+}
+@media (min-width: 759px){
+  #behindimg{
+    margin-top: -1150px;
+    }
+}
+@media (min-width: 1163px){
+    #behindimg{
+        margin-top: -1100px;
+    }
+}
+@media (min-width: 1188px){
+    #behindimg{
+        margin-top: -1050px;
+}
+}
+@media (min-width: 1265px){
+    #behindimg{
+        margin-top: -975px;
+    }
+}
+@media (min-width: 1348px){
+    #behindimg{
+        margin-top: -875px;
+    }
+}
+@media (min-width: 1390px){
+    #behindimg{
+        margin-top: -840px;
+    }
+}
+@media (min-width: 1415px){
+    #behindimg{
+        margin-top: -830px;
+    }
+}
+@media (min-width: 1469px){
+    #behindimg{
+        margin-top: -790px;
+    }
+}
+@media (min-width: 1563px){
+    #behindimg{
+        margin-top: -740px;
+    }
+}
+@media (min-width: 1691px){
+    #behindimg{
+        margin-top: -700px;
+    }
+}
+@media (min-width: 1907px){
+    #behindimg{
+        margin-top: -650px;
+    }
+}
 </style>
