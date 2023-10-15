@@ -208,4 +208,32 @@ export default {};
   transform: scale(1.5); 
   transition-duration: 0.8s;
 }
+@media (max-width: 1475px){
+    .mealplan {
+      grid-template-columns: 1fr;
+      grid-template-areas: "photo"
+                            "text";
+    }
+    .flashcards{ 
+      grid-template-columns: 1fr;
+      grid-template-areas: "photo"
+                            "text";
+    }
+    .flashcards img {
+      width: 400px;
+    }
+    .comingsoon{
+      grid-template-columns: 1fr;
+      grid-template-areas: "libphoto"
+                            "libtext";
+    }
+}
+@media (max-width: 783px){
+  .mealplan img{
+    max-width: 400px;
+  }
+  .comingsoon img{
+    max-width: 400px;
+  }
+}
 </style>
