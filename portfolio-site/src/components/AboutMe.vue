@@ -1,17 +1,17 @@
 <template>
 <div class="background">
   <div class="about">
-    <img class="me" src="../assets/Images/Headshot.jpg" alt="Amanda Taylor">
+    <img id="me" class="animate__animated animate__fadeInLeft" src="../assets/Images/Headshot.jpg" alt="Amanda Taylor">
     
-    <div class="about-me">
-    <h1 class="title">Amanda Taylor</h1>
-    <p class="details">I'm a software developer, veteran, and artist with over 11 years of customer service and sales experience. 
+    <div id="about-me" class="animate__animated animate__fadeInRight">
+    <h1 id="title">Amanda Taylor</h1>
+    <p id="details">I'm a software developer, veteran, and artist with over 11 years of customer service and sales experience. 
         As far back as I can remember, I’ve always been the creative type. I was the kid that spent all of my time drawing crayon pictures to be hung up on the refrigerator. 
         As I got a little older, I participated in and won numerous art competitions and I was always the kid in class with all the sketches in the margins of their notes. 
         Whether it’s drawing or building an app, if I’m creating something, I’m happy. I find the process of figuring out how to bring an idea to reality to be incredibly 
         rewarding and I have a passion for learning.</p>
     </div>
-    <div class="contact">
+    <div id="contact" class="animate__animated animate__fadeInRight">
        <a href="https://www.linkedin.com/in/amanda-taylor1/"> <img src="../assets/Images/icons/linkedin.png" alt="LinkedIn: amanda-taylor1"></a>
         <a href="https://github.com/ATaylorN"><img src="../assets/Images/icons/github.png" alt="GitHub: ATaylorN"></a>
         
@@ -36,7 +36,7 @@
         </div>
     </div>
 
-    <container class="behindimg"></container>
+    <container id="behindimg" class="animate__animated animate__fadeInLeft"></container>
   </div>
   </div>
 </template>
@@ -120,7 +120,7 @@ export default {
     color: #002130;
     font-weight: 500;
 }
-.me{
+#me{
     grid-area: photo;
     max-width: 400px;
     border: 4px solid goldenrod;
@@ -136,7 +136,7 @@ export default {
                         "photo contact"
                         "behind .";
 }             
-.behindimg{
+#behindimg{
     grid-area: behind;
     height: 710px;
     box-shadow: 0px 5px 20px 0px black;
@@ -148,7 +148,7 @@ export default {
     z-index: -1;
     border-radius: 8px;
 }
-.about-me{
+#about-me{
     grid-area: me;
     padding: 4rem 8rem 4rem 4rem;
     display: flex;
@@ -156,7 +156,7 @@ export default {
     background-color: #B95952;
     color: white;
 }
-.about-me h1{
+#about-me h1{
     padding-left: 200px;
     padding-bottom: 2rem;
     font-size: 64px;
@@ -164,36 +164,36 @@ export default {
     text-decoration: underline;
     color: black;
 }
-.about-me p{
+#about-me p{
     font-size: 28px;
     font-family: 'Oswald', Courier, monospace;
     font-weight:300;
 }
-.contact{
+#contact{
     grid-area: contact;
     padding: 4rem; 
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
 }
-.contact img{
+#contact img{
     max-width: 80px;
     margin-right: 20px;
 }
-.contact a{
+#contact a{
     text-decoration: none;
     color: gray;
     font-size: 12px;
 }
-.contact a:hover{
+#contact a:hover{
     transform: scale(1.2);
     transition-duration: 0.8s;
 }
-.contact button:hover{
+#contact button:hover{
     transform: scale(1.2);
     transition-duration: 0.8s;
 }
-.contact button{
+#contact button{
     border: none;
     background-color: white;
 }

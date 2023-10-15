@@ -2,7 +2,7 @@
 <div class="portraits-page">
   <div class="portraits">
     
-    <button type="button" data-bs-toggle="modal" data-bs-target="#modal1">
+    <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal1">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/nux.jpg" alt="Nux">
             <div class="card-img-overlay">
@@ -32,7 +32,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal2">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal2">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/nux2.jpg" alt="Nux v2">
             <div class="card-img-overlay">
@@ -64,7 +64,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal3">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal3">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/chester_bennington.jpg" alt="Chester Bennington">
             <div class="card-img-overlay">
@@ -94,7 +94,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal4">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal4">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/eleventh_doctor.jpg" alt="Dr.Who - 11th Doctor">
             <div class="card-img-overlay">
@@ -125,7 +125,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal5">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal5">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/jessica_jones.jpg" alt="Jessica Jones & Kilgrave">
             <div class="card-img-overlay">
@@ -156,7 +156,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal6">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal6">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/cutiepiesensei_cosplay.jpg" alt="Cutiepiesensei">
             <div class="card-img-overlay">
@@ -186,7 +186,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal7">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal7">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/loki_of_asgard.jpg" alt="Loki">
             <div class="card-img-overlay">
@@ -218,7 +218,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal8">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal8">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/newly_weds.jpg" alt="Newly Weds Commission">
             <div class="card-img-overlay">
@@ -247,7 +247,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal9">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal9">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/tifa_lockhart.jpg" alt="FFVII - Tifa">
             <div class="card-img-overlay">
@@ -276,7 +276,7 @@
         </div>
         </div>
 
-        <button type="button" data-bs-toggle="modal" data-bs-target="#modal10">
+        <button class="animate__animated animate__slideInUp" type="button" data-bs-toggle="modal" data-bs-target="#modal10">
         <div class="card">
             <img class="card-img-top" src="../assets/Images/portraits/aerith_gainsborough.jpg" alt="FFVII - Aerith">
             <div class="card-img-overlay">

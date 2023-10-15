@@ -1,31 +1,31 @@
 <template>
   <div class="marketing">
     <div class="icons">
-    <h1>Tools I Use:</h1>
-      <img src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
-      <img src="../assets/Images/icons/facebook.png" alt="Facebook logo" />
-      <img src="../assets/Images/icons/canva.png" alt="Canva logo" />
-      <img src="../assets/Images/icons/mailchimp.png" alt="MailChimp logo" />
-      <img src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
+    <h1 class="animate__animated animate__zoomIn">Tools I Use:</h1>
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/facebook.png" alt="Facebook logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/canva.png" alt="Canva logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/mailchimp.png" alt="MailChimp logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
       </div>
 
       <div class="buysell">
       <div class="socialmedia">
         <div class="smtext">
-        <h1>Buying/Selling Seminar 2022</h1>
-        <p class="title">The  real estate market can be confusing so to help, Janszen Associates' hosted a Home Buying/Selling Seminar. 
+        <h1 class="animate__animated animate__fadeInRight">Buying/Selling Seminar 2022</h1>
+        <p class="animate__animated animate__fadeInRight" id="title">The  real estate market can be confusing so to help, Janszen Associates' hosted a Home Buying/Selling Seminar. 
           This campaign included social media posts, emails, and physical signage for the event.</p>
         </div>
         <div class="posts">
-        <h2>Facebook and Instagram Posts</h2>
-        <p>For a successful campaign, I created multiple eye-catching graphics to and posted frequently leading up to the event. </p>
+        <h2 class="animate__animated animate__slideInUp">Facebook and Instagram Posts</h2>
+        <p class="animate__animated animate__slideInUp">For a successful campaign, I created multiple eye-catching graphics to and posted frequently leading up to the event. </p>
         <div class="smphotos">
-        <img src="../assets/Images/marketing/buysell1.png" alt="Home Feeling Too Small graphic" />
-        <img src="../assets/Images/marketing/buysell2.png" alt="Home Feeling Too Big graphic" />
-        <img src="../assets/Images/marketing/buysell3.png" alt="We Can Help graphic" />
-        <img src="../assets/Images/marketing/buysell4.png" alt="Buying and Selling details graphic" />
-        <img src="../assets/Images/marketing/buysellsavedate.png" alt="Save the date version 1" />
-        <img src="../assets/Images/marketing/buysellsavedate2.png" alt="Save the date version 2" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysell1.png" alt="Home Feeling Too Small graphic" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysell2.png" alt="Home Feeling Too Big graphic" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysell3.png" alt="We Can Help graphic" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysell4.png" alt="Buying and Selling details graphic" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysellsavedate.png" alt="Save the date version 1" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysellsavedate2.png" alt="Save the date version 2" />
         </div>
         </div>
 
@@ -44,14 +44,14 @@
     
       <div class="email">
         <div class="etext">
-        <h2>Email Campaign:</h2>
-        <p>Since not all of their clients are on social media, I did email and post card (not pictured) campaigns</p>
+        <h2 class="animate__animated animate__slideInUp">Email Campaign:</h2>
+        <p class="animate__animated animate__slideInUp">Since not all of their clients are on social media, I did email and post card (not pictured) campaigns</p>
         </div>
         <div class="ephotos">
-        <img src="../assets/Images/marketing/buysell1.png" alt="Email part1" />
-        <img src="../assets/Images/marketing/buysell2.png" alt="Email part2" />
-        <img src="../assets/Images/marketing/buysell3.png" alt="Email part3" />
-        <img src="../assets/Images/marketing/buysell4.png" alt="Email part4" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysell1.png" alt="Email part1" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysell2.png" alt="Email part2" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysell3.png" alt="Email part3" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/buysell4.png" alt="Email part4" />
         </div>
       </div>
     </div>
@@ -116,7 +116,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
 }
-.title{
+#title{
   grid-area: title;
   max-width: 1500px;
   margin-bottom: 2rem;

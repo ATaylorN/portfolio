@@ -2,17 +2,17 @@
   <div class="coding">
 
     <div class="icons">
-    <h1>Tools I Use:</h1>
-      <img src="../assets/Images/icons/bootstrap.png" alt="BootStrap logo" />
-      <img src="../assets/Images/icons/intellij.png" alt="IntelliJ logo" />
-      <img src="../assets/Images/icons/javascript.png" alt="JavaScript logo" />
-      <img src="../assets/Images/icons/java.png" alt="Java logo" />
-      <img src="../assets/Images/icons/html.png" alt="HTML logo" />
-      <img src="../assets/Images/icons/figma.png" alt="Figma logo" />
-      <img src="../assets/Images/icons/vue.png" alt="Vue logo" />
-      <img src="../assets/Images/icons/vscode.png" alt="Visual Studio Code logo" />
-      <img src="../assets/Images/icons/css.png" alt="CSS logo" />
-      <img src="../assets/Images/icons/pgadmin.png" alt="PostgreSQL logo" />
+    <h1 class="animate__animated animate__zoomIn">Tools I Use:</h1>
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/bootstrap.png" alt="BootStrap logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/intellij.png" alt="IntelliJ logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/javascript.png" alt="JavaScript logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/java.png" alt="Java logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/html.png" alt="HTML logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/figma.png" alt="Figma logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/vue.png" alt="Vue logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/vscode.png" alt="Visual Studio Code logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/css.png" alt="CSS logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/pgadmin.png" alt="PostgreSQL logo" />
       </div>
 
     <div class="mealplan">
@@ -21,16 +21,16 @@
         <img src="../assets/Images/coding/Calendar.png" alt="Meal Plan calendar" />
       </div>
       <div class="details">
-      <h1>Meal Planner App</h1>
-       <p>12 weeks into the program, we were assigned to a team of 4. Together we utilized Java, Spring Boot, PostgreSQL, and Vue.js (just to name a few) 
+      <h1 class="animate__animated animate__fadeInRight">Meal Planner App</h1>
+       <p class="animate__animated animate__fadeInRight">12 weeks into the program, we were assigned to a team of 4. Together we utilized Java, Spring Boot, PostgreSQL, and Vue.js (just to name a few) 
         to develop a meal planner web application where a user can view, add, or update recipes with ease. In the 'Build a Recipe' page, the user can search for 
         ingredients to add to their recipe and the information/images are supplied by an API. Our Calendar contained a lot of functionality; by simply dragging and 
         dropping selected recipes onto the calendar, users can plan out a full month's worth of meals accurately. With the option to select a date range, the application 
         will display the necessary ingredients needed for that period. To further streamline the process, users can print or email the grocery list, 
         and even download a VCS file that is compatible with Google Calendar.</p>
 
-        <h2>What I Learned:</h2>
-        <p>In this project, I learned a lot about team dynamics and the importance of communication. Some of my team members were people I had never met before the 
+        <h2 class="animate__animated animate__fadeInRight">What I Learned:</h2>
+        <p class="animate__animated animate__fadeInRight">In this project, I learned a lot about team dynamics and the importance of communication. Some of my team members were people I had never met before the 
           project since they were from another class. We also had half of the team working remote, but we were still able to produce an awesome product. Throughout this 
           process, I feel like I never stopped learning. We ran into a couple of roadblocks in the beginning because we were eager to get to coding, but once we took the time 
           to thoroughly design out what we wanted the application to be, we were able to execute far more efficiently. I personally learned a ton about frontend including HTML,
@@ -191,6 +191,7 @@ export default {};
   margin: 10px;
   border-radius: 10px;
   padding-left: 2rem;
+  z-index: 2;
 }
 .comingsoon img{
   max-width: 600px;

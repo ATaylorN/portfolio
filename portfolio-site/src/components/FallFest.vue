@@ -1,36 +1,36 @@
 <template>
   <div class="marketing">
     <div class="icons">
-    <h1>Tools I Use:</h1>
-      <img src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
-      <img src="../assets/Images/icons/facebook.png" alt="Facebook logo" />
-      <img src="../assets/Images/icons/canva.png" alt="Canva logo" />
-      <img src="../assets/Images/icons/mailchimp.png" alt="MailChimp logo" />
-      <img src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
+    <h1 class="animate__animated animate__zoomIn">Tools I Use:</h1>
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/facebook.png" alt="Facebook logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/canva.png" alt="Canva logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/mailchimp.png" alt="MailChimp logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
       </div>
 
       <div class="fallfest">
       <div class="socialmedia">
         <div class="smtext">
-        <h1>Fall Fest 2022</h1>
-        <p class="title">Janszen Associates' wanted to host a fall-themed event that specifically targeted their past clients
+        <h1 class="animate__animated animate__fadeInRight">Fall Fest 2022</h1>
+        <p id="title" class="animate__animated animate__fadeInRight">Janszen Associates' wanted to host a fall-themed event that specifically targeted their past clients
             as a way to thank them for their business and referrals. This campaign included social media posts, emails, and physical signage for the event.</p>
         </div>
         <div class="posts">
-        <h2>Facebook and Instagram Posts</h2>
-        <p>For a successful campaign, I created multiple eye-catching graphics to and posted frequently leading up to the event. </p>
+        <h2 class="animate__animated animate__slideInUp">Facebook and Instagram Posts</h2>
+        <p class="animate__animated animate__slideInUp">For a successful campaign, I created multiple eye-catching graphics to and posted frequently leading up to the event. </p>
         <div class="smphotos">
-        <img src="../assets/Images/marketing/fallfest1.png" alt="Save the date version 1" />
-        <img src="../assets/Images/marketing/fallfest2.png" alt="Save the date version 2" />
-        <img src="../assets/Images/marketing/fallfest3.png" alt="Save the date version 3" />
-        <img src="../assets/Images/marketing/fallfest4.png" alt="Save the date version 4" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/fallfest1.png" alt="Save the date version 1" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/fallfest2.png" alt="Save the date version 2" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/fallfest3.png" alt="Save the date version 3" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/fallfest4.png" alt="Save the date version 4" />
         </div>
         </div>
 
         <div class="fbevent">
           <div class="fbtext">
-        <h2>Facebook Event</h2>
-        <p>To drum up even more interest, I created a public Facebook event for the campaign and sent invites to our client list, had the agents invite their friends
+        <h2 class="animate__animated animate__slideInUp">Facebook Event</h2>
+        <p class="animate__animated animate__slideInUp">To drum up even more interest, I created a public Facebook event for the campaign and sent invites to our client list, had the agents invite their friends
           and family, and posted regularly in the event so that it stayed in peoples' feeds. 
         </p>
         </div>
@@ -42,12 +42,12 @@
     
       <div class="email">
         <div class="etext">
-        <h2>Email Campaign:</h2>
-        <p>Since not all of their clients are on social media, I did email and post card (not pictured) campaigns</p>
+        <h2 class="animate__animated animate__slideInUp">Email Campaign:</h2>
+        <p class="animate__animated animate__slideInUp">Since not all of their clients are on social media, I did email and post card (not pictured) campaigns</p>
         </div>
         <div class="ephotos">
-        <img src="../assets/Images/marketing/fallfestemail3.jpg" alt="Email campaign">
-        <img src="../assets/Images/marketing/fallfestemail2.jpg" alt="Email campaign pg2">
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/fallfestemail3.jpg" alt="Email campaign">
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/fallfestemail2.jpg" alt="Email campaign pg2">
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
 }
-.title{
+#title{
   grid-area: title;
   max-width: 1500px;
   margin-bottom: 2rem;

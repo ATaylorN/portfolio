@@ -1,35 +1,35 @@
 <template>
  <div class="marketing">
     <div class="icons">
-    <h1>Tools I Use:</h1>
-      <img src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
-      <img src="../assets/Images/icons/facebook.png" alt="Facebook logo" />
-      <img src="../assets/Images/icons/canva.png" alt="Canva logo" />
-      <img src="../assets/Images/icons/mailchimp.png" alt="MailChimp logo" />
-      <img src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
+    <h1 class="animate__animated animate__zoomIn">Tools I Use:</h1>
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/instagram.png" alt="Instagram logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/facebook.png" alt="Facebook logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/canva.png" alt="Canva logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/mailchimp.png" alt="MailChimp logo" />
+      <img class="animate__animated animate__zoomIn" src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
       </div>
 
       <div class="campaigns">
       <div class="alltheways">
         <div class="atwtext">
-        <h1>Real Estate Marketing - 2021 to 2023</h1>
-        <p class="title">Individual Realtors and Real Estate Teams need a ton of marketing to get in front of potential home-seller and home-buying clients and stay top of mind.
+        <h1 class="animate__animated animate__fadeInRight">Real Estate Marketing - 2021 to 2023</h1>
+        <p id="title" class="animate__animated animate__fadeInRight">Individual Realtors and Real Estate Teams need a ton of marketing to get in front of potential home-seller and home-buying clients and stay top of mind.
             This can mean numerous social media campaigns, listing presentations, events, brochures, email campaigns, and brochures (just to name a few!)
         </p>
         </div>
         <div class="posts">
-        <h2>Campaign - All the Ways JA Can Help You</h2>
-        <p>When you think of a Realtor, you may only think of buying and/or selling a home, but this team wants you to know that they can also
+        <h2 class="animate__animated animate__slideInUp">Campaign - All the Ways JA Can Help You</h2>
+        <p class="animate__animated animate__slideInUp">When you think of a Realtor, you may only think of buying and/or selling a home, but this team wants you to know that they can also
             help with things like new construction and commercial space. This campaign included social media posts and a flyer created for their
             listing presentation.
         </p>
         <div class="atwphotos">
-        <img src="../assets/Images/marketing/realestate1.png" alt="Save the date version 1" />
-        <img src="../assets/Images/marketing/realestate2.png" alt="Save the date version 2" />
-        <img src="../assets/Images/marketing/realestate3.png" alt="Save the date version 3" />
-        <img src="../assets/Images/marketing/realestate4.png" alt="Save the date version 3" />
-        <img src="../assets/Images/marketing/realestate5.png" alt="Save the date version 3" />
-        <img src="../assets/Images/marketing/realestateflyer.png" alt="Save the date version 3" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate1.png" alt="Save the date version 1" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate2.png" alt="Save the date version 2" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate3.png" alt="Save the date version 3" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate4.png" alt="Save the date version 3" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate5.png" alt="Save the date version 3" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestateflyer.png" alt="Save the date version 3" />
         </div>
         </div>
 
@@ -50,14 +50,14 @@
     
       <div class="email">
         <div class="etext">
-        <h2>Email Newsletter</h2>
-        <p>I created and implemented a monthly email newsletter which included a market update, highlights from past events, advertisements for upcoming events,
+        <h2 class="animate__animated animate__slideInUp">Email Newsletter</h2>
+        <p class="animate__animated animate__slideInUp">I created and implemented a monthly email newsletter which included a market update, highlights from past events, advertisements for upcoming events,
             and their current listings.
         </p>
         </div>
         <div class="ephotos">
-        <img src="../assets/Images/marketing/newsletter.png" alt="Save the date version 1" />
-        <img src="../assets/Images/marketing/newsletter2.png" alt="Save the date version 2" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/newsletter.png" alt="Save the date version 1" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/newsletter2.png" alt="Save the date version 2" />
         </div>
       </div>
     </div>
@@ -122,7 +122,7 @@ export default {
   margin-right: auto;
   border-radius: 10px;
 }
-.title{
+#title{
   grid-area: title;
   max-width: 1680px;
   margin-bottom: 2rem;

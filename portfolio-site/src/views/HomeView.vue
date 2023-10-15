@@ -18,7 +18,7 @@
       <img src="../assets/Images/icons/css.png" alt="CSS logo" />
       <img src="../assets/Images/icons/pgadmin.png" alt="PostgreSQL logo" />
   </div>
-  <div class="apps">
+  <div id="apps" class="animate__animated animate__fadeInRight">
     <div class="card" style="width:500px">
     <img class="card-img-top" src="../assets/Images/coding/mealplannerpreview.png" alt="Meal Planner App">
     <div class="card-img-overlay">
@@ -179,7 +179,7 @@ export default {
 .card-title{
   color: white;
 }
-.apps{
+#apps{
   display: flex;
   flex-direction: row;
   gap: 3rem;
