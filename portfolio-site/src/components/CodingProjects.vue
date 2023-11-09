@@ -48,7 +48,9 @@
         really put their knowledge to the test with a quiz.</p>
 
       <h2>What I Learned:</h2>
-      <p>Insert what I learned here</p>
+      <p>This project is great because I continue to learn from it even after completing it. Not only was it a great solo learning experience where I learned things like how to pull random data from a 
+        database and how to make quizzes, but I still go back to it to study. I can also easily add new questions to study as I continue to learn new things. 
+      </p>
       </div>
       <div class="fcphotos">
       <img class="one" src="../assets/Images/coding/landing-page.png" alt="Flash Cards landing page" />

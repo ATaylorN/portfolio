@@ -108,6 +108,7 @@ export default {
 .form {
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 .form input{
     min-width: 400px;
