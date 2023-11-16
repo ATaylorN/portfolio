@@ -24,12 +24,12 @@
             listing presentation.
         </p>
         <div class="atwphotos">
-        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate1.png" alt="Save the date version 1" />
-        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate2.png" alt="Save the date version 2" />
-        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate3.png" alt="Save the date version 3" />
-        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate4.png" alt="Save the date version 3" />
-        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate5.png" alt="Save the date version 3" />
-        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestateflyer.png" alt="Save the date version 3" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate1.png" alt="HomeBuying" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate2.png" alt="HomeSelling" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate3.png" alt="New Construction" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate4.png" alt="Commercial Leasing and Sales" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestate5.png" alt="Trusted Partners" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/realestateflyer.png" alt="Real Estate Flyer" />
         </div>
         </div>
 
@@ -41,10 +41,10 @@
         </p>
         </div>
         <div class="listphotos">
-        <img src="../assets/Images/marketing/comingsoon.png" alt="Save the date version 1" />
-        <img src="../assets/Images/marketing/justlisted.png" alt="Save the date version 2" />
-        <img src="../assets/Images/marketing/openhouse.png" alt="Save the date version 3" />
-        <img src="../assets/Images/marketing/closed.png" alt="Save the date version 3" />
+        <img src="../assets/Images/marketing/comingsoon.png" alt="Coming Soon" />
+        <img src="../assets/Images/marketing/justlisted.png" alt="Just Listed" />
+        <img src="../assets/Images/marketing/openhouse.png" alt="Open House" />
+        <img src="../assets/Images/marketing/closed.png" alt="Closed" />
         </div>
         </div>
     
@@ -56,8 +56,8 @@
         </p>
         </div>
         <div class="ephotos">
-        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/newsletter.png" alt="Save the date version 1" />
-        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/newsletter2.png" alt="Save the date version 2" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/newsletter.png" alt="Newsletter" />
+        <img class="animate__animated animate__slideInUp" src="../assets/Images/marketing/newsletter2.png" alt="Newsletter" />
         </div>
       </div>
     </div>
@@ -96,12 +96,11 @@ export default {
 }
 .email img{
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 480px;
 }
 .listphotos{
   display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
+  flex-direction: row
 }
 .alltheways {
   display: grid;
@@ -133,7 +132,7 @@ export default {
   margin-top: 8rem;
   margin-left: auto;
   margin-right: auto;
-  max-height: 1480px;
+  max-height: 1400px;
   border: 4px solid #CE0F11;
   border-radius: 10px;
   box-shadow: 0px 5px 20px 0px #CE0F11;
@@ -162,19 +161,24 @@ color: #CE0F11;
   box-shadow: 0px 5px 20px 0px black;
 }
 .listtext{
- max-width: 1550px;
+ max-width: 1450px;
+ margin-left: auto;
+ margin-right: auto;
   color: white;
 }
 .listings img{
-  max-width: 400px;
+  width: 345px;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .listphotos{
   display: flex;
   flex-wrap: wrap;
 }
 .icons{
-   margin-bottom: 4rem;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
    margin-left: auto;
    margin-right: auto;
 }

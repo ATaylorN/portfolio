@@ -160,7 +160,8 @@ export default {
   border-radius: 10px;
 }
 .icons{
-   margin-bottom: 4rem;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
    margin-left: auto;
    margin-right: auto;
 }

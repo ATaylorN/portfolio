@@ -19,21 +19,21 @@
       <img src="../assets/Images/icons/pgadmin.png" alt="PostgreSQL logo" />
   </div>
   <div id="apps" class="animate__animated animate__fadeInRight">
-    <div class="card" style="width:500px">
+    <div class="card" style="width:450px">
     <img class="card-img-top" src="../assets/Images/coding/mealplannerpreview.png" alt="Meal Planner App">
     <div class="card-img-overlay">
     <h4 class="card-title">MEAL PLANNER APP</h4>
     </div>
     </div>
 
-    <div class="card" style="width:500px">
+    <div class="card" style="width:450px">
     <img class="card-img-top" src="../assets/Images/coding/landing-page.png" alt="Flashcards App">
     <div class="card-img-overlay">
     <h4 class="card-title">FLASHCARDS APP</h4>
     </div>
     </div>
 
-    <div class="card" style="width:500px">
+    <div class="card" style="width:450px">
     <img class="card-img-top" src="../assets/Images/coding/library.png" alt="Library App">
     <div class="card-img-overlay">
     <h4 class="card-title">LIBRARY APP - IN PROGRESS</h4>
@@ -53,7 +53,7 @@
       <img src="../assets/Images/icons/airtable.png" alt="AirTable logo" />
   </div>
   <div class="projects">
-    <div class="card" style="width:500px">
+    <div class="card" style="width:450px">
       <a href="/fall-fest">
     <img class="card-img-top" src="../assets/Images/marketing/fallfestpreview.png" alt="Fall Fest Campaign">
     <div class="card-img-overlay">
@@ -62,7 +62,7 @@
     </a>
     </div>
 
-    <div class="card" style="width:500px">
+    <div class="card" style="width:450px">
       <a href="/buy-and-sell">
     <img class="card-img-top" src="../assets/Images/marketing/buysellpreview.png" alt="Buying/Selling Seminar">
     <div class="card-img-overlay">
@@ -71,7 +71,7 @@
     </a>
     </div>
 
-    <div class="card" style="width:500px">
+    <div class="card" style="width:450px">
       <a href="/real-estate">
     <img class="card-img-top" src="../assets/Images/marketing/realestatepreview.png" alt="Real Estate">
     <div class="card-img-overlay">
@@ -166,8 +166,9 @@ export default {
 </script>
 
 <style scoped>
+
 .coding{
-  margin-top: -100px;
+  margin-top: -100px
 }
 .coding a {
   text-decoration: none;
@@ -186,6 +187,7 @@ export default {
   justify-content: center;
   text-align: center;
   margin-bottom: 6rem;
+
 }
 .home h2{
   text-align: center;
@@ -195,7 +197,7 @@ export default {
   color: #002130;
 }
 .icons{
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -272,7 +274,7 @@ export default {
 #demo img {
   object-fit: contain;
   background-position: top;
-  max-height: 800px;
+  max-height: 600px;
 }
 
 </style>

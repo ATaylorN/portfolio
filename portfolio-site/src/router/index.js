@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutMe from '../views/AboutMeView.vue'
 import Coding from '../views/CodingProjectsView.vue'
-import Marketing from '../views/MarketingSectionView.vue'
 import FallFest from '../views/FallFestView.vue'
 import BuySell from '../views/BuySellView.vue'
 import RealEstate from '../views/RealEstateView.vue'
@@ -26,11 +25,6 @@ const routes = [
     path: '/coding',
     name: 'coding-projects',
     component: Coding
-  },
-  {
-    path: '/marketing',
-    name: 'marketing-section',
-    component: Marketing
   },
   {
     path: '/fall-fest',

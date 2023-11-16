@@ -81,7 +81,7 @@ export default {
   margin-right: auto;
 }
 .etext{
-  max-width: 600px;
+  max-width: 500px;
 }
 .ephotos{
   display: flex;
@@ -89,7 +89,7 @@ export default {
 }
 .email img{
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 500px;
 }
 .fephotos{
   display: flex;
@@ -147,10 +147,10 @@ export default {
 .fbevent{
   margin-left: auto;
   margin-right: auto;
-  margin-top: -00px;
+  margin-top: 40px;
   grid-area: facebook;
-  padding: 3rem 2rem 0rem 2rem;
-  max-height: 1280px;
+  padding: 3rem 2rem 1.5rem 2rem;
+  max-height: 1380px;
   background-color:#5c919e;
   color: white;
   border-radius: 10px;
@@ -164,7 +164,8 @@ export default {
   border-radius: 10px;
 }
 .icons{
-   margin-bottom: 4rem;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
    margin-left: auto;
    margin-right: auto;
 }

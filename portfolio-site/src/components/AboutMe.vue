@@ -15,7 +15,7 @@
        <a href="https://www.linkedin.com/in/amanda-taylor1/"> <img src="../assets/Images/icons/linkedin.png" alt="LinkedIn: amanda-taylor1"></a>
         <a href="https://github.com/ATaylorN"><img src="../assets/Images/icons/github.png" alt="GitHub: ATaylorN"></a>
         
-        <div class="dropdown">
+        <div class="dropup">
         <button type="button" data-bs-toggle="dropdown"><img src="../assets/Images/icons/email.png" alt="Email: amandanagies@gmail.com"> </button>
         <ul class="dropdown-menu">
             <li class="dropdown-item"><h4>Email Me</h4>
@@ -68,6 +68,7 @@ export default {
 </script>
 
 <style scoped>
+
 .status{
     text-align: center;
     font-family: Oswald, sans-serif;
@@ -139,7 +140,7 @@ export default {
 }             
 #behindimg{
     grid-area: behind;
-    height: 710px;
+    height: 625px;
     box-shadow: 0px 5px 20px 0px black;
     background-image: url('../assets/Images/background/fogtexture.jpg');
     background-repeat:round;

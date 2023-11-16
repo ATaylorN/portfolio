@@ -88,7 +88,8 @@ export default {};
 
 <style scoped>
 .icons{
-   margin-bottom: 6rem;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
    margin-left: auto;
    margin-right: auto;
 }
@@ -115,7 +116,7 @@ export default {};
 .coding p{
   font-family: 'Oswald', Courier, monospace;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-weight: 300;
 }
 .flashcards{
@@ -125,7 +126,7 @@ export default {};
   background-color: #002130;
   border-radius: 10px;
   color: white;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   align-items: center;
   justify-items: center;
   box-shadow: 0px 5px 20px 0px black;
@@ -169,17 +170,13 @@ export default {};
   background-color: #B95952;
   border-radius: 10px;
   color: white;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   align-items: center;
   box-shadow: 0px 5px 20px 0px black;
   padding: 2rem 0rem;
 }
 .photos{
   grid-area: photo;
-}
-.mealplan img:hover{
-  transform: scale(1.5); 
-  transition-duration: 0.8s;
 }
 .details{
   grid-area: text;
@@ -189,11 +186,10 @@ export default {};
   max-width: 50px;
 }
 .mealplan img{
-  max-width: 600px;
-  margin: 10px;
+  max-width: 700px;
+  margin: 20px;
   border-radius: 10px;
-  padding-left: 2rem;
-  z-index: 2;
+  padding-left: 2rem
 }
 .comingsoon img{
   max-width: 600px;
@@ -205,10 +201,6 @@ export default {};
   max-width: 100%;
   height: 400px;
   border-radius: 10px;
-}
-.flashcards img:hover{
-  transform: scale(1.5); 
-  transition-duration: 0.8s;
 }
 @media (max-width: 1475px){
     .mealplan {
