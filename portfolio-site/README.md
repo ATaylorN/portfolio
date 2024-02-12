@@ -1,5 +1,7 @@
 # Portfolio Site
 
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,figma,vue,nodejs,vscode)](https://skillicons.dev)
+
 [![Generic badge](https://img.shields.io/badge/STATUS-COMPLETE-GREEN.svg)](https://shields.io/)  - [Amanda Taylor: Portfolio](https://amandataylor-portfolio.netlify.app "My finished site")
 
 My goal is to create a portfolio website that highlights not only the all of the coding projects that I've worked on, but the marketing that I've worked on and the numerous portraits that I've created. I really want to highlight that I'm a software developer that also has an eye for design. 
