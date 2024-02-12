@@ -1,6 +1,6 @@
 # Portfolio Site
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,figma,vue,nodejs,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,figma,vue,nodejs,netlify,vscode)](https://skillicons.dev)
 
 [![Generic badge](https://img.shields.io/badge/STATUS-COMPLETE-GREEN.svg)](https://shields.io/)  - [Amanda Taylor: Portfolio](https://amandataylor-portfolio.netlify.app "My finished site")
 
